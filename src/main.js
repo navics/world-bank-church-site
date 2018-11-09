@@ -11,6 +11,8 @@ import {
   VList,
   VBtn,
   VIcon,
+  VResponsive,
+  VDivider,
   VGrid,
   VCard,
   VToolbar,
@@ -27,6 +29,8 @@ Vue.use(Vuetify, {
   components: {
     VApp,
     VExpansionPanel,
+  VResponsive,
+    VDivider,
     VNavigationDrawer,
     VFooter,
     VDialog,

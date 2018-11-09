@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-card id="wall" height="300" img="https://www.adventist.org/fileadmin/_processed_/9/3/csm_sections-Spirituality-2_3066826cce.jpg">
+    <v-card id="wall" height="300" img="/static/img/spirit.jpg">
       <h1>SPIRITUALITY</h1>
       <p>Prayer is the simple act of having a conversation with God. It’s about talking with the Creator of the
         Universe: whether aloud or in our thoughts, during special or ordinary moments, when we’re on the move or
@@ -16,7 +16,7 @@
     </v-card>
 
     <v-container>
-      <v-card light hover class="elevation-23" raised="true" ripple>
+      <v-card light hover class="elevation-0" raised="true" ripple>
         <v-card-title primary-title>
           <h2>Many have tried to determine what constitutes the essential human endeavor. For some it is to be known
             and for others it is to be loved. For many it is to make a lasting mark on the world so that the impact of
@@ -49,7 +49,7 @@
 
     </v-container>
 
-    <v-card flat class="elevation-13" style="padding:30px">
+    <v-card flat class="elevation-23" style="padding:30px">
       <h2>Even though “I’m too busy!” has become the catch phrase of the twenty-first century, which is often “a boast
         disguised as a complaint”[1], scientists are discovering that we perform better and achieve more if we take a
         break[2], [3].</h2>

@@ -3,13 +3,15 @@
     <v-navigation-drawer persistent :mini-variant="miniVariant" :clipped="clipped" v-model="drawer"
       enable-resize-watcher fixed app>
       <v-list>
-        <v-list-tile value="true" v-for="(item, i) in items" :key="i" v-bind="item.href" @click="item.href">
-          <v-list-tile-action>
-            <v-icon v-html="item.icon"></v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title v-text="item.title"></v-list-tile-title>
-          </v-list-tile-content>
+        <v-list-tile value="true" v-for="(item, i) in items" :key="i" @click="">
+          <router-link :to="item.href">
+            <v-list-tile-action>
+              <v-icon v-html="item.icon"></v-icon>
+            </v-list-tile-action>
+            </router-link>
+            <v-list-tile-content>
+              <v-list-tile-title v-text="item.title"></v-list-tile-title>
+            </v-list-tile-content>
 
         </v-list-tile>
       </v-list>
@@ -91,31 +93,37 @@
   export default {
     data() {
       return {
-        dialog: true,
+        dialog: false,
         clipped: false,
-        drawer: true,
+        drawer: false,
         fixed: true,
+
         items: [{
           icon: 'bubble_chart',
           title: 'Youth',
-          href: 'beliefs'
+          href: 'youth'
         }, {
           icon: 'pregnant_woman',
           title: 'AWM',
-          href: 'beliefs'
+          href: 'awm'
         }, {
-          icon: 'perm_identity',
+          icon: 'persony',
           title: 'AMO',
-          href: 'beliefs'
+          href: 'amo'
         }, {
           icon: 'child_care',
           title: 'Infant Dpt',
-          href: ''
+          href: 'infant'
         }, {
           icon: 'book',
           title: 'Beliefs',
           href: 'beliefs'
+        }, {
+          icon: 'people',
+          title: 'Members',
+          href: 'members'
         }],
+
         miniVariant: false,
         right: true,
         rightDrawer: false,

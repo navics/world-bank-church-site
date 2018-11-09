@@ -6,7 +6,8 @@
         <h1>Beliefs</h1>
         <br />
         <h3>Seventh-day Adventists accept the Bible as the only source of our beliefs. We consider our movement to be
-          the result of the Protestant conviction Sola Scriptura—the Bible as the only standard of faith and practice for
+          the result of the Protestant conviction Sola Scriptura—the Bible as the only standard of faith and practice
+          for
           Christians.
         </h3>
         <br />
@@ -17,6 +18,22 @@
         </p>
       </v-card>
     </v-card>
+    <br />
+    <v-flex md6>
+      <v-card style="padding:30px" dark md4 draggable="true">
+        Over the years, our church has agreed upon key statements that summarize the principal teachings Seventh-day
+        Adventists understand from the Bible. These statements are made collectively by a group of scholars studying
+        and prayerfully searching the Bible with the help of the Holy Spirit.
+      </v-card>
+      <hr/>
+      <br/>
+      <!-- download as pdf -->
+      <a target="top" href="https://www.adventist.org/fileadmin/adventist.org/files/articles/official-statements/28Beliefs-Web.pdf">
+        <v-icon>picture_as_pdf</v-icon>
+        28 fundamental beliefs PDF (English)</a>
+      <!-- / download as pdf -->
+    </v-flex>
+
     <br />
     <br />
     <br />
